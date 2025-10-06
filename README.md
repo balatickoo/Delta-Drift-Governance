@@ -77,5 +77,54 @@ The following diagram represents the **A1–A6 modular architecture**:
 ---
 
 ## 📁 Repository Structure
+Delta-Drift-Governance/
+│
+├── notebooks/
+│ └── delta_drift_governance_pybook.ipynb
+│
+├── data/
+│ └── drift_governance_dashboard.json
+│
+├── visuals/
+│ ├── psi_summary_table.png
+│ ├── psi_heatmap.png
+│ ├── psi_timeseries.png
+│ ├── delta_drift_visual_gallery.png
+│ └── DriftGovernance_WorkflowDesign.png
+│
+└── README.md
+
+
+---
+
+## 📤 Integration & Extensions
+
+- **Export options**: Databricks SQL, Splunk HEC, REST-based microservices  
+- **Next version (v6.4+)**: introduce rolling windows, streaming updates, and alert triggers  
+- **Optional orchestration**: Use MLflow + Delta Live Tables for end-to-end lineage  
+
+---
+
+## 📚 Credits
+
+Developed by **Bala Prasad**, leveraging Databricks Community Edition and open-source Python stack.  
+Part of a continuing series on **Responsible AI Observability** and **Enterprise Drift Governance**.  
+
+> “Drift doesn’t shout — it whispers. Governance ensures you listen before failure.”  
+> — Bala Prasad
+
+---
+
+## 🔗 Linked Articles
+
+📄 [LinkedIn Article: *Delta Drift Governance Architecture — Responsible AI at Scale*](https://www.linkedin.com/pulse/delta-drift-governance-architecture-responsible-ai-scale-prasad--3vhmc/)  
+
+---
+
+## 🧠 Tags
+
+`databricks` `delta-lake` `drift-detection` `ml-observability` `responsible-ai` `psi` `governance` `python` `matplotlib`
+
+---
 
 
